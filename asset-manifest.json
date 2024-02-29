@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/projet-8/static/css/main.f5a42f71.css",
+    "main.js": "/projet-8/static/js/main.8c8c60d8.js",
+    "static/js/453.60f90383.chunk.js": "/projet-8/static/js/453.60f90383.chunk.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/projet-8/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.9b95ada7a30d67f2fb6c.png",
+    "static/media/img_haut_de_page.png": "/projet-8/static/media/img_haut_de_page.8befb5c906d96abedfb6.png",
+    "static/media/LOGO.svg": "/projet-8/static/media/LOGO.999f101986f51ac35dce96d27ee8d706.svg",
+    "index.html": "/projet-8/index.html",
+    "main.f5a42f71.css.map": "/projet-8/static/css/main.f5a42f71.css.map",
+    "main.8c8c60d8.js.map": "/projet-8/static/js/main.8c8c60d8.js.map",
+    "453.60f90383.chunk.js.map": "/projet-8/static/js/453.60f90383.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5a42f71.css",
+    "static/js/main.8c8c60d8.js"
+  ]
+}
