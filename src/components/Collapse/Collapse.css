@@ -1,0 +1,38 @@
+.titleBanner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgba(255, 96, 96, 1);
+  color: white;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.titleBanner .fa-angle-down {
+  margin-right: 10px;
+  transition: all 1s;
+}
+.titleBanner .fa-angle-down.reverse {
+  transform: rotate(180deg);
+}
+.titleCollapse {
+  margin: 10px;
+}
+
+.collapseDescription {
+  background-color: rgb(247, 247, 247);
+  margin-top: 0;
+  padding: 10px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .titleBanner {
+    height: 30px;
+    font-size: 12px;
+  }
+  .collapseDescription {
+    font-size: 10px;
+  }
+}

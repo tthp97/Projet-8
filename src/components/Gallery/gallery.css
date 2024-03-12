@@ -1,0 +1,51 @@
+.picture.active {
+  display: block;
+  transform: all 1s;
+}
+.picture {
+  display: none;
+}
+.galleryImage {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+}
+
+.Gallery {
+  position: relative;
+}
+
+.Gallery .arrow {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+  top: 40%;
+}
+
+.Gallery .fa-solid {
+  font-size: 90px;
+}
+
+.numerotation {
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+  transform: translate(50%);
+  color: white;
+  font-size: 30px;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .Gallery .fa-solid {
+    font-size: 30px;
+  }
+  .galleryImage {
+    height: 225px;
+  }
+}

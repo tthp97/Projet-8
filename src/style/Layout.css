@@ -1,0 +1,61 @@
+header {
+  margin: 50px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavHeader ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.NavHeader a {
+  color: black;
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
+}
+.active {
+  text-decoration: underline;
+}
+.NavHeader a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: white;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.underline {
+  text-decoration: underline;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  header {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+  }
+  .logoHeader {
+    width: 145px;
+    height: 46px;
+  }
+}

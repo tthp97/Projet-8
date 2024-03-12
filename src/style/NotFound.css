@@ -1,0 +1,30 @@
+.mainContainerNotFound h1 {
+  font-size: 288px;
+  margin: 0;
+}
+
+.mainContainerNotFound {
+  text-align: center;
+  font-family: "Montserrat";
+  color: rgba(255, 96, 96, 1);
+}
+
+.mainContainerNotFound a {
+  color: black;
+  text-decoration: none;
+}
+
+.mainContainerNotFound a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .mainContainerNotFound h1 {
+    font-size: 90px;
+    margin-bottom: 100px;
+  }
+  .mainContainerNotFound h2 {
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

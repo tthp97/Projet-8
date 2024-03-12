@@ -1,0 +1,130 @@
+* {
+  font-family: "Montserrat";
+}
+.annoncePageMC {
+  margin: 50px;
+}
+.profilInfoWithStars {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.titleAnnonce h1 {
+  color: rgba(255, 96, 96, 1);
+  font-size: 36px;
+  margin: 0.5em 0 0 0;
+  font-weight: 500;
+}
+
+.titleAnnonce h3 {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.annonceProfil {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.profilPicture {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+}
+
+.nameProfil {
+  color: rgba(255, 96, 96, 1);
+  font-size: 18px;
+}
+.profilWithRate {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.rating {
+  display: flex;
+  justify-content: flex-end;
+}
+.allTags {
+  display: flex;
+  gap: 20px;
+}
+.annoncePageTag {
+  background-color: rgba(255, 96, 96, 1);
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.collapseContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.collapseContainer .collapseBar {
+  width: 100%;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .annoncePageMC {
+    margin: 0 20px;
+  }
+  .annonceContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .profilWithRate {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 45px;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .profilInfoWithStars {
+    flex-direction: column;
+  }
+  .titleAnnonce h1 {
+    font-size: 18px;
+  }
+  .titleAnnonce h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .allTags {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .annoncePageTag {
+    font-size: 10px;
+  }
+  .annonceProfil {
+    flex-wrap: nowrap;
+  }
+  .nameProfil {
+    font-size: 12px;
+    text-align: end;
+  }
+  .profilPicture {
+    width: 32px;
+    height: 32px;
+  }
+  .rating {
+    gap: 5px;
+  }
+  .rating .fa-solid {
+    font-size: 13px;
+  }
+  .collapseContainer {
+    flex-direction: column;
+  }
+}
